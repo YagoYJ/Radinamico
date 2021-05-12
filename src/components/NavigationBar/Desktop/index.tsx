@@ -10,7 +10,7 @@ export default function DesktopBar() {
             <Link to="/">Início</Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/">Anatomia</Link>
+            <Link to="/anatomia">Anatomia</Link>
           </MenuItem>
           <MenuItem>
             <Link to="/">Contato</Link>
