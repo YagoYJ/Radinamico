@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import {
   Description,
@@ -34,6 +35,7 @@ export default function Home() {
           </Description>
         </DescriptionContainer>
       </Main>
+      <Footer />
     </HomePage>
   );
 }
