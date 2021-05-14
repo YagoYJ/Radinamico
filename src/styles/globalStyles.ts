@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import theme from "./theme";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -10,6 +11,15 @@ const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     color: inherit;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 50px 10%;
+    margin: 0 auto;
+    background-color: ${theme.colors.lightGray}
   }
 `;
 

@@ -36,6 +36,7 @@ export const MenuItem = styled.li`
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
+    text-transform: uppercase;
     &:hover {
       opacity: 0.7;
       transition: 0.3;
