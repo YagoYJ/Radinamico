@@ -7,7 +7,16 @@ export default function Footer() {
     <FooterContainer>
       <div />
       <ParagraphContainer>
-        <p>Desenvolvidor por Yago Juan</p>
+        <p>
+          Desenvolvido por{" "}
+          <a
+            href="http://linkedin.com/in/yagoyj"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Yago Juan
+          </a>
+        </p>
       </ParagraphContainer>
       <Icons>
         <Icon>
