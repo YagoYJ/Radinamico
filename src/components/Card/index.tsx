@@ -5,11 +5,13 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import theme from "../../styles/theme";
 import { Title, Paragraph } from "./styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
     backgroundColor: theme.colors.darkGray,
+    marginBottom: 20,
   },
   media: {
     height: 300,
@@ -21,24 +23,27 @@ interface MediaCardProps {
   imageTitle: string;
   title: string;
   paragraph: string;
+  slug: string;
 }
 
 export default function MediaCard(props: MediaCardProps) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={props.imageUrl}
-          title={props.imageTitle}
-        />
-        <CardContent>
-          <Title>{props.title}</Title>
-          <Paragraph>{props.paragraph}</Paragraph>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <Link to={`anatomia/${props.slug}`}>
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={props.imageUrl}
+            title={props.imageTitle}
+          />
+          <CardContent>
+            <Title>{props.title}</Title>
+            <Paragraph>{props.paragraph}</Paragraph>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </Link>
   );
 }

@@ -13,18 +13,28 @@ export default function Anatomy() {
           imageUrl="assets/cabeca.png"
           title="Cabeça"
           paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+          slug="cabeca"
         />
         <MediaCard
           imageTitle="Coluna Vertebral"
           imageUrl="assets/coluna-vertebral.png"
-          title="Costela"
+          title="Coluna Vertebral"
           paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+          slug="coluna-vertebral"
         />
         <MediaCard
           imageTitle="Costela"
           imageUrl="assets/costela.png"
           title="Costela"
           paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+          slug="costela"
+        />
+        <MediaCard
+          imageTitle="Membros Inferiores"
+          imageUrl="assets/membros-inferiores.png"
+          title="Membros Inferiores"
+          paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+          slug="membros-inferiores"
         />
       </Main>
       <Footer />
