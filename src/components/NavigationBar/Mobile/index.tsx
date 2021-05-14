@@ -37,10 +37,10 @@ export default function MobileBar() {
               <Link to="/anatomia">Anatomia</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/">Contato</Link>
+              <Link to="/contato">Contato</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/">Sobre</Link>
+              <Link to="/sobre">Sobre</Link>
             </MenuItem>
           </MenuList>
         </MenuBar>

@@ -5,7 +5,6 @@ import {
   DescriptionContainer,
   HomePage,
   LogoContainer,
-  Main,
   Separator,
   Title,
 } from "./styles";
@@ -14,7 +13,7 @@ export default function Home() {
   return (
     <HomePage>
       <Header />
-      <Main>
+      <main>
         <LogoContainer>
           <img src="assets/logo.png" alt="Logo Radinâmico" />
         </LogoContainer>
@@ -34,7 +33,7 @@ export default function Home() {
             <p>Sou o Prof. Matheus Albuquerque e espero que gostem!!</p>
           </Description>
         </DescriptionContainer>
-      </Main>
+      </main>
       <Footer />
     </HomePage>
   );
