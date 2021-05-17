@@ -37,6 +37,20 @@ export default function Anatomy() {
             paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
             slug="membros-inferiores"
           />
+          <MediaCard
+            imageTitle="Membros superiores"
+            imageUrl="assets/membros-superiores.png"
+            title="Membros Superiores"
+            paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+            slug="membros-superiores"
+          />
+          <MediaCard
+            imageTitle="Esterno"
+            imageUrl="assets/esterno.png"
+            title="Esterno"
+            paragraph="assadlasndlk asdnasldnlaskn sdnaklsdnnsd aldknsakldnlsn naldklasn"
+            slug="esterno"
+          />
         </MainContainer>
       </main>
       <Footer />
