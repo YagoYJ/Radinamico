@@ -6,15 +6,16 @@ export const HomePage = styled.div`
   flex: 1;
 `;
 
-export const Main = styled.main`
+export const MainContainer = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 80px;
-  @media (max-width: 600px) {
-    flex-direction: column;
-    padding: 100px 50px;
+
+  @media (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
   }
 `;
 
@@ -26,8 +27,10 @@ export const LogoContainer = styled.div`
   & > img {
     width: 250px;
     height: 250px;
-    @media (max-width: 600px) {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
+
+    @media (min-width: 800px) {
+      margin-bottom: 0;
     }
   }
 
@@ -37,13 +40,14 @@ export const LogoContainer = styled.div`
 `;
 
 export const DescriptionContainer = styled.div`
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  @media (max-width: 600px) {
-    width: 100%;
+
+  @media (min-width: 800px) {
+    width: 50%;
   }
 `;
 
