@@ -1,18 +1,22 @@
-import { Typography } from "@material-ui/core";
+import { CardContent, Typography } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import theme from "../../styles/theme";
 
+export const CardContainer = styled(Link)`
+  width: 30%;
+`;
+
+export const TitleContainer = styled(CardContent)`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+`;
+
 export const Title = styled(Typography).attrs({
-  gutterBottom: true,
   variant: "h5",
   component: "h2",
 })`
   color: ${theme.colors.yellow};
-`;
-
-export const Paragraph = styled(Typography).attrs({
-  variant: "body2",
-  component: "p",
-})`
-  color: ${theme.colors.white};
+  text-transform: uppercase;
 `;
