@@ -7,7 +7,7 @@ import { CardContainer, Title, TitleContainer } from "./styles";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    width: 345,
     backgroundColor: theme.colors.darkGray,
     marginBottom: 50,
   },

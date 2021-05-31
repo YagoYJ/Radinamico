@@ -4,7 +4,7 @@ import styled from "styled-components";
 import theme from "../../styles/theme";
 
 export const CardContainer = styled(Link)`
-  width: 30%;
+  width: 345px;
 `;
 
 export const TitleContainer = styled(CardContent)`
